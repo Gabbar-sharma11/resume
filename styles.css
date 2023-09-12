@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-color: rgb(225, 222, 218);
+    padding-bottom: 50px;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: aliceblue;
+    box-shadow: 1px 1px 1px #cfafaf;
+    border-radius: 5px;
+     margin-top: 50px;
+     margin-left: 25%;
+    padding: 50px;
+    max-width: 700px;
+}
+
+.header {
+    margin-bottom: 35px;
+}
+.full-name{
+    font-size: 34px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.first-name{
+    font-weight: bold;
+}
+.last-name{
+    font-weight: 200px;
+
+}
+.contect-info{
+    margin: 0;
+}
+.email,.phone{
+    color: #999;
+    font-weight: 300px;
+
+}
+.sepretor
+{
+    border-left: 2px solid #999;
+    margin: 0 10px;
+}
+.potion{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-right: 5px;
+}
+.datails{
+    line-height: 30px;
+
+       .section{
+    margin-bottom: 20px;
+}
+     .section-title{
+      color: rgb(16, 137, 137);
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      margin-top: 20px;
+    
+      
+
+}
+    .section-list{
+        margin-bottom: 40px;
+        line-height:23px;
+    }
+    .left,.right{
+       vertical-align: top;
+       display: inline-block;
+    }
+    .left{
+        width: 60%;
+    }
+    .right{
+        text-align: right;
+        width: 37.7%;
+    }
+    .name{
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .skills-item{
+        font-weight: bold;
+    }
+
+}
